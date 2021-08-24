@@ -19,6 +19,10 @@ function howManyLegs() {
   // your code inside here
   // don't forget to use the return keyword
   
+  for(let i=0; i < goodDoggo.length; i++){
+    return(goodDoggo[i].legs)
+  }
+  
 }
 
 // Cat Challenges

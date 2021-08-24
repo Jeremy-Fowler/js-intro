@@ -81,10 +81,11 @@ let myCar = {
 function isStopped(car) {
   if (myCar.moving == false){
     return(true)
-  }else if (myCar.moving == true){
+  }  
+  if (myCar.moving == true){
     return(false)
-  
   }
+  
   
 
 }
