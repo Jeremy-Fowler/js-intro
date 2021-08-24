@@ -81,6 +81,7 @@ function isStopped(car) {
     return(true)
   }else if(myCar.moving == true){
     return(false)
+    console.log()
   }
   
 
