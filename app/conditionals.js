@@ -15,7 +15,8 @@ function largerNum(num1, num2) {
 // output: "F"
 
 function testGrader(score, possible) {
-    let maxScore = (score * 4)
+    let highScore = (100 / possible)
+    let maxScore = (score * highScore)
   
     if (maxScore <= 59){
         return("F");
@@ -76,12 +77,13 @@ let myCar = {
     moving: false
 }
 
+// TODO Why not?
 function isStopped(car) {
   if (myCar.moving == false){
     return(true)
-  }else if(myCar.moving == true){
+  }else if (myCar.moving == true){
     return(false)
-    console.log()
+  
   }
   
 
@@ -94,6 +96,15 @@ let dish = {
     isDirty: true
 }
 
+// TODO Why not?
 function washDish(dish) {
+  if (dish.yourDish = false){
+    return(false)
+  }else if(dish.isDirty = false){
+    return(false)
+  }else if(dish.isDirty = true){
+    return(true)
+  }
+
 
 }
